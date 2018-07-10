@@ -1,4 +1,8 @@
 def first_steps
+  loop do 
+    puts "step to the left"
+    puts "step to the right."
+  end
   # Write a loop that outputs "Right foot back", "Left foot back",
   # "Right foot back", and "Stop", with sleep after each
 end
@@ -15,3 +19,4 @@ def break_dance
   # Write a solution that uses the same code as how_many_steps?, but breaks the
   # loop if steps is equal to 6
 end
+first_steps
